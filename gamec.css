@@ -1,0 +1,67 @@
+
+body{
+    
+    font-family: 'Roboto';
+}
+.imgc{
+position: relative;
+margin: 16px;
+}
+.sect{
+    display: none;
+    position: absolute;
+    bottom: 25px;
+    z-index: 1;
+    margin-left: 33%;
+}
+.imgc1:hover{
+    opacity: 0.5;
+}
+
+.imgc:hover .sect {
+    
+display: block;
+
+}
+.add li{
+    list-style-type:none;
+}
+.about1{
+    margin-left:7%;
+    margin-right: 7%; 
+}
+.card{
+border: 1px solid white;
+}
+.fa2{
+    color:#09ecd0;
+}
+
+
+.servicecls{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+    .cls1{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .cls2{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+.card-body:hover{
+    border:2px solid white; 
+}
+.custom123{
+    margin-left:5%; 
+}
+.lowbox{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.contact-co{
+    margin-left: 5%;
+    margin-right: 5%;
+}
