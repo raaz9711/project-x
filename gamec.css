@@ -16,6 +16,7 @@ margin: 16px;
 }
 .imgc1:hover{
     opacity: 0.5;
+    
 }
 
 .imgc:hover .sect {
@@ -51,17 +52,50 @@ border: 1px solid white;
         padding-left: 0px;
     }
 
-.card-body:hover{
-    border:2px solid white; 
+.tcard:hover{
+    box-shadow: 5px 8px 3px #808080;
 }
 .custom123{
     margin-left:5%; 
 }
 .lowbox{
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .contact-co{
     margin-left: 5%;
     margin-right: 5%;
+}
+.navcls{
+    background-color: black;
+    color: white;
+
+}
+
+.divunder{
+    height: 3px;
+    background-color: aqua;
+    display: none;
+}
+.nav-item:hover .divunder{
+    display:block;
+}
+.margindiv{
+    width: 100px;
+    height: 8px;
+}
+.rel:hover{
+    position: relative;
+    bottom: 5px;
+
+}
+.newl{
+    background-color: aqua;
+}
+.newl1{
+padding-left:100px; 
+}
+.clientpic{
+    width:100px;
+    height: 100px;
 }
