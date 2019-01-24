@@ -15,45 +15,71 @@
   
   <body>
 <!--<div id="nav"> <div class="header"> <div id="footer">-->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">GoHarness</a>
+  <!--
+  <div class="nav sticky-top navcls">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse  navbar-collapse navbar-light bg-primary" id="navbarSupportedContent">
+        <div class="collapse  navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link ml-3" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link ml-3" href="#about">About</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link ml-3" href="#service">Service</a>
-              </li>
-              
-            <li class="nav-item">
-                <a class="nav-link ml-3" href="#team">Team</a>
-              </li>
-              
-            <li class="nav-item ml-3">
-                <a class="nav-link" href="#">Price</a>
-              </li>
-              
-            <li class="nav-item ml-3">
-                <a class="nav-link" href="#">FAQ's</a>
-              </li>
-              
-            <li class="nav-item ml-3">
-                <a class="nav-link" href="#contact">Contact Us </a>
-              </li>
             
           </ul>
         
         </div>
       </nav>
+    </div>
+    --><nav class="navbar navbar-expand-lg  navcls">
+  <a class="navbar-brand" href="#">GoHarness</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active pr-3">
+        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="divunder"></div>
+      </li>
+      
+      <li class="nav-item pr-3">
+          <a class="nav-link" href="#about">About</a>
+          <div class="divunder"></div>
+        </li>
+        
+        <li class="nav-item pr-3">
+            <a class="nav-link" href="#service">Service</a>
+            <div class="divunder"></div>
+          </li>
+          
+        <li class="nav-item pr-3">
+            <a class="nav-link" href="#team">Team</a>
+            <div class="divunder"></div>
+          </li>
+          
+        <li class="nav-item pr-3">
+            <a class="nav-link" href="#">Price</a>
+            <div class="divunder"></div>
+          </li>
+          
+        <li class="nav-item pr-3">
+            <a class="nav-link" href="#">FAQ's</a>
+            <div class="divunder"></div>
+          </li>
+          
+        <li class="nav-item pr-3">
+            <a class="nav-link" href="#contact">Contact Us </a>
+            <div class="divunder"></div>
+          </li>
+    </ul>
+    
+  </div>
+</nav>
       <div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -77,7 +103,7 @@
                     <h4> Welcome to GoHarness!</h4>
                     <h5> An excellent way for all the Software Developers to start their journey and learn and develop.</h5>
                     <br>
-                    
+                    <button class="btn btn-outline-success"> Explore more! </button>
               </div>
           </div>
          
@@ -136,8 +162,8 @@
    </div>
   -->
   <div class="row">
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 rel">
+      <div class="card tcard">
         <div class="card-body">
           <h2 class="text-center"><i class="fa fa-tablet fa-2x fa2" aria-hidden="true"></i></h2>
           <h5 class="card-title text-center">Responsive Design</h5>
@@ -146,8 +172,8 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 rel">
+      <div class="card tcard">
         <div class="card-body">
             <h2 class="text-center"><i class="fa fa-calendar-alt fa-2x fa2" aria-hidden="true"></i></h2>
           <h5 class="card-title text-center">Integrated Calendar</h5>
@@ -156,8 +182,8 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 rel">
+      <div class="card tcard">
         <div class="card-body"><h2 class="text-center"><i class="fa fa-bug fa-2x fa2" aria-hidden="true"></i></h2>
 
           <h5 class="card-title text-center">Bugs Free Solution</h5>
@@ -167,10 +193,10 @@
       </div>
     </div>
   </div>
-  
+  <div class="margindiv"></div>
   <div class="row">
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 rel">
+      <div class="card tcard">
         <div class="card-body">
             <h2 class="text-center"><i class="fa fa-cloud fa-2x fa2" aria-hidden="true"></i></h2>
           <h5 class="card-title text-center">Cloud Stroage</h5>
@@ -179,8 +205,8 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 rel">
+      <div class="card tcard">
         <div class="card-body">
             <h2 class="text-center"><i class="fa fa-play fa-2x fa2" aria-hidden="true"></i></h2>
           <h5 class="card-title text-center">Premium Features</h5>
@@ -189,8 +215,8 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 rel">
+      <div class="card tcard">
         <div class="card-body">
             <h2 class="text-center"><i class="fa fa-clock fa-2x fa2" aria-hidden="true"></i></h2>
           <h5 class="card-title text-center">24x7 Support</h5>
@@ -202,6 +228,8 @@
   </div>
   
    </div>
+   <div class="margindiv"></div>
+   <hr>
    <div id="service" class="bg-info">
         <div class="row">
                 <div class="col-sm-6">
@@ -243,12 +271,14 @@
                               </div>
                 </div>
                     
-                    <div class="col-sm-6">
-                        <img class="imgc"src="desktop.jpg" alt="" style="width: 100%;" >
-                        
+                    <div class="col-sm-6 "style="background-image:url(desktop.jpg)">
+                      <!--
+                        <img class="imgc"src="desktop.jpg" alt="" style="width: 100%; height: 100%;" >
+                      -->
                         </div>
                         </div>
                     </div>
+                    
                     <hr>
                     <h2 class="text-center">Meet Our Team</h2>
                     <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id debitis eum et ab architecto ex, quis libero hic qu</p>
@@ -288,16 +318,30 @@
                 </div> </div>
           </div>
         </div>
+        <hr>
+        <div class="newl">
+          <div class="row">
+            <div class="col-sm-9 newl1"style="color:white;">
+          <h3>Subscribse our new letter</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolore fugit nemo voluptas
+             placeat corrupti voluptatem eaque porro nam labore esse ad a et veniam aliquam voluptatum consequatur, ullam maiores?</p>
+        </div>
+          <div class="col-sm-3  pt-5 pb-5">
+            <button class="btn btn-secondary">Subscribe</button>
+          </div>
+        </div>
+        </div>
         <!--
           client testimony
         -->
-        
-<h3 class="text-center" id="cust">client testimony</h3>
+        <hr>
+<h1 class="text-center" id="cust">client testimony</h1>
+<h3 class="text-center">here there go somewhere</h3>
 <div class="row">
     <div class="col-sm-1 "></div>
   <div class="col-xs-12 col-sm-3 custom123">
       <div class="card" style="width: 18rem; border: 1px solid white;">
-          <img src="user.png" class="card-img-top rounded-circle" alt="...">
+          <img class="clientpic" src="user.png" class="card-img-top rounded-circle" alt="...">
           <h5 class="card-title">Card title</h5>
             <p class="card-text">
             <img src="lquote.png" style="width:16px;height:16px;">
@@ -309,7 +353,7 @@
         
   <div class="col-xs-12 col-sm-3 custom123">
       <div class="card" style="width: 18rem; border: 1px solid white;">
-          <img src="user.png" class="card-img-top rounded-circle" alt="...">
+          <img class="clientpic" src="user.png" class="card-img-top rounded-circle" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -323,7 +367,7 @@
   
   <div class="col-xs-12 col-sm-3 custom123">
       <div class="card" style="width: 18rem; border: 1px solid white;">
-          <img src="user.png" class="card-img-top rounded-circle" alt="...">
+          <img class="clientpic" src="user.png" class="card-img-top rounded-circle" alt="...">
           <h5 class="card-title">Card title</h5>
             <p class="card-text">
             <img src="lquote.png" style="width:16px;height:16px;">
